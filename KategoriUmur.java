@@ -63,13 +63,13 @@ public class KategoriUmur {
         if (age < BALITA_AGE) {
             return "balita";
         } else if (age < ANAK_AGE) {
-            return "anak-anak";
+            return "anak";
         } else if (age < REMAJA_AGE) {
             return "remaja";
         } else if (age < DEWASA_AGE) {
             return "dewasa";
         } else if (age < PARUBAYAH_AGE) {
-            return "parubayah";
+            return "paruhbayah";
         } else {
             return "lanjut usia";
         }
